@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    font-family: Overpass, sans-serif;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+
+}
+
+.rating-component {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+#icon button {
+    background-color: hsla(0, 0%, 100%, 5%);
+    border-style: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+#title h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+
+}
+
+#content p {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rating button {
+    background-color: hsla(0, 0%, 100%, 5%);
+    border-style: none;
+    border-radius: 50px;
+    color: hsl(216, 12%, 54%);
+    font-size: 1rem;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+}
+
+#submit {
+    align-self: center;
+    width: 100%;
+}
+
+#submit button {
+    background-color: hsl(25, 97%, 53%);
+    color: hsla(0, 0%, 100%, 75%);
+    border-radius: 30px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    width: 100%;
+    padding: 15px 0;
+}
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
