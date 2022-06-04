@@ -16,44 +16,42 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="rating-component">
+  <div id="rating-component">
     <div id="icon"><button><img src="images/icon-star.svg" alt="star"></button></div>
-    <div id="title">
-      <h1>How did we do?</h1>
-    </div>
-    <div id="content">
-      <p>
-        Please let us know how we did with your support request. All feedback is appreciated
-        to help us improve our offering!
-      </p>
-    </div>
+    <!-- <div id="title"> -->
+    <h1>How did we do?</h1>
+    <!-- </div> -->
+    <!-- <div id="content"> -->
+    <p>
+      Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!
+    </p>
+    <!-- </div> -->
     <div id="rating">
-      <div class="rating-item"><button>1</button></div>
-      <div class="rating-item"><button>2</button></div>
-      <div class="rating-item"><button>3</button></div>
-      <div class="rating-item"><button>4</button></div>
-      <div class="rating-item"><button>5</button></div>
+      <button class="rating-button" value="1">1</button>
+      <button class="rating-button" value="2">2</button>
+      <button class="rating-button" value="3">3</button>
+      <button class="rating-button" value="4">4</button>
+      <button class="rating-button" value="5">5</button>
     </div>
-    <div id="submit"><button>SUBMIT</button></div>
+    <button id="submit">SUBMIT</button>
   </div>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-
-  You selected
-  <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support,
-  don’t hesitate to get in touch!
-
+  <div id="thanks-component">
+    <img id="thanks-img" src="images/illustration-thank-you.svg" alt="thank you">
+    <button id="rating-score" disabled>You selected <span id="score">4</span> out of 5</button>
+    <h1>Thank you!</h1>
+    <p id="thanks-p"> We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+  </div>
   <!-- Thank you state end -->
 
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Alice Easey</a>.
+    Coded by <a href="https://github.com/alicee88/interactive-rating">alicee88</a>.
   </div>
   <script src="script.js"></script>
 </body>

@@ -22,15 +22,25 @@ body {
 
 }
 
-.rating-component {
+#rating-component,
+#thanks-component {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 350px;
     height: 400px;
     padding: 20px;
     border-radius: 10px;
     gap: 20px;
     background-color: hsl(213, 19%, 18%);
+}
+
+#thanks-component {
+    display: none;
+}
+
+#thanks-component {
+    align-items: center;
 }
 
 #icon button {
@@ -42,16 +52,20 @@ body {
     padding: 0;
 }
 
-#title h1 {
+h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 400;
 
 }
 
-#content p {
+p {
     color: hsl(216, 12%, 54%);
     font-size: 15px;
     line-height: 1.5;
+}
+
+#thanks-p {
+    text-align: center;
 }
 
 #rating {
@@ -68,33 +82,60 @@ body {
     padding: 0;
     height: 50px;
     width: 50px;
+    transition: all 0.2s ease-in;
+}
+
+#rating button:hover:enabled {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+#rating .selected {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
 }
 
 #submit {
     align-self: center;
     width: 100%;
-}
-
-#submit button {
     background-color: hsl(25, 97%, 53%);
     color: hsla(0, 0%, 100%, 75%);
     border-radius: 30px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-size: 15px;
     width: 100%;
     padding: 15px 0;
+    border-style: none;
+    font-weight: 700;
+    transition: all 0.2s ease-in;
 }
 
+#submit:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
 
+#thanks-img {
+    max-width: 50%;
+    max-height: 50%;
+}
 
-
-
+#rating-score {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(0, 0%, 100%, 5%);
+    border-style: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
 
 
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(216, 12%, 54%);
+    margin-top: 20px;
 }
 
 .attribution a {
