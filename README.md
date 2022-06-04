@@ -11,10 +11,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,3 +27,20 @@ Users should be able to:
 
 ![](./images/ratingComp2.png)
 ![](./images/ratingComp1.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://alicee88.github.io/interactive-rating/)
+
+## My process
+
+### Built with
+
+- Vanilla HTML/CSS/JS
+- Flexbox
+
+### What I learned
+
+This was my first Frontend Mentor challenge and I was happy I could pull together a solution in a relatively short amount of time. 
+I had never styled round elements/buttons before so it was good to get experience of ```border-radius``` and the alpha properties on hsl to delineate the borders.  
